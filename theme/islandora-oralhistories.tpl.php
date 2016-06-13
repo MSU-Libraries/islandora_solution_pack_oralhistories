@@ -20,7 +20,6 @@
 
 <div class="islandora-oralhistories-object islandora" vocab="http://schema.org/" prefix="dcterms: http://purl.org/dc/terms/" typeof="VideoObject">
   <div class="islandora-oralhistories-content-wrapper  clearfix">
-    <h3> Audio Player </h3>
     <?php if ($islandora_content['viewer']): ?>
       <div class="islandora-oralhistories-content">
         <?php print $islandora_content['viewer']; ?>
@@ -28,7 +27,7 @@
     <?php endif; ?>
   </div>
   <div class="islandora-oralhistories-metadata">
-    <h3> Description </h3>
+    <h3> Interview Summary </h3>
     <?php print $description; ?>
     
     <?php print $metadata; ?>
