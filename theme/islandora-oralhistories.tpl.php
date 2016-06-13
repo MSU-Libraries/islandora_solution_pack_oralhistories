@@ -28,6 +28,7 @@
     <?php endif; ?>
   </div>
   <div class="islandora-oralhistories-metadata">
+    <h3> Description </h3>
     <?php print $description; ?>
     
     <?php print $metadata; ?>
