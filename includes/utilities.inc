@@ -97,7 +97,7 @@ function xml_transcript_content($trid) {
   if ($ui->tcuCount > 0) {
     return theme('islandora_transcript_scroller', transcripts_ui_render($ui));
   } else {
-    return t("This transcript is still being processed for display.");
+    return t("This transcript is currently unavailable.");
   }
 }
 
