@@ -39,7 +39,7 @@ There are a number of options included by default; you'll want to get rid of mos
 | Hidden tiers | |
 | ----- | ----- |
 | | |
-This tier is empty
+(This tier is empty)
 
 | Speaker names* | |
 | ----- | ----- |
